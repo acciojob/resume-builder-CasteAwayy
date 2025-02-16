@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Navigation from "../components/Navigation";
-import { useNavigate } from "react-router";
+import { useNavigate } from "react-router-dom";
 import { educationCreated } from "../resumeSlice";
 import { useDispatch, useSelector } from "react-redux";
 import EducationForm from "../components/EducationForm";

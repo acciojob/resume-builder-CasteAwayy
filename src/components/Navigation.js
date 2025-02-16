@@ -1,5 +1,5 @@
 import { Link, useNavigate } from "react-router";
-
+import React from 'react'
 function Navigation({ pageNumber, setPageNumber, to }) {
     const navigate = useNavigate();
     return (

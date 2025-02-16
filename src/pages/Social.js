@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router";
+import { useNavigate } from "react-router-dom";
 import Navigation from "../components/Navigation";
 import { useDispatch } from "react-redux";
 import { socialCreated } from "../resumeSlice";

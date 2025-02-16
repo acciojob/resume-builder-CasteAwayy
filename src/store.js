@@ -1,10 +1,17 @@
-import { combineReducers, createStore } from "redux";
-import userReducer from "./resumeSlice";
+import { createStore, applyMiddleware, compose } from "redux";
+import thunk from "redux-thunk";
+import rootReducer from "./Reducer/index";
 
-const rootReducer = combineReducers({
-  user: userReducer,
-});
+const initialState = {};
+const middleware = [thunk];
 
-const store = createStore(rootReducer);
-
+const store = createStore(
+  rootReducer,
+  initialState,
+  applyMiddleware(...middleware)
+  // compose(
+  //   applyMiddleware(...middleware),
+  //   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+  // )
+);
 export default store;

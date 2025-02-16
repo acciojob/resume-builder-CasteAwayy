@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Navigation from "../components/Navigation";
 import { miniprojectCreated } from "../resumeSlice";
-import { useNavigate } from "react-router";
+import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 
 function Miniproject({ pageNumber, setPageNumber }) {

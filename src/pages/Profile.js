@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Navigation from "../components/Navigation";
 import { useDispatch, useSelector } from "react-redux";
-import { useNavigate } from "react-router";
+import { useNavigate } from "react-router-dom";
 import { profileCreated } from "../resumeSlice";
 
 function Profile({ pageNumber, setPageNumber }) {

@@ -2,7 +2,7 @@ import { useNavigate } from "react-router";
 import Navigation from "../components/Navigation";
 import { useDispatch } from "react-redux";
 import { socialCreated } from "../resumeSlice";
-import { useState } from "react";
+import React, { useState } from "react";
 
 function Social({ pageNumber, setPageNumber }) {
     const [social, setSocial] = useState("");

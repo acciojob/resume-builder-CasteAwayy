@@ -5,7 +5,7 @@ import Skills from "./pages/Skills";
 import Education from "./pages/Education";
 import Miniproject from "./pages/Miniproject";
 import Social from "./pages/Social";
-import { useState } from "react";
+import React, { useState } from "react";
 import Output from "./pages/Output";
 
 function App() {

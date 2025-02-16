@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Navigation from "../components/Navigation";
-import { useNavigate } from "react-router";
+import { useNavigate } from "react-router-dom";
 import { skillsCreated } from "../resumeSlice";
 import { useDispatch } from "react-redux";
 

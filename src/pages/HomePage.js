@@ -1,4 +1,4 @@
-import { Outlet } from "react-router";
+import { Outlet } from "react-router-dom";
 import PageNav from "../components/PageNav";
 import React from 'react'
 function HomePage({ pageNumber }) {

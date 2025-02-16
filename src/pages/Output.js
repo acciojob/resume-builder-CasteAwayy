@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-
+import React from 'react'
 function Output() {
     const data = useSelector((state) => state.user);
     console.log(data);

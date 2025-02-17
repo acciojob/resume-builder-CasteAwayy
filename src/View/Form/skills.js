@@ -102,10 +102,10 @@ const AddSkill = () => {
           {Form.map((instance) => instance)}
           </Grid>
           <div className={classes.footer}>
-           <Button disabled={props.SkillsFormData.Count<2} className={classes.deleteButton} onClick={DeleteSkills} variant="outlined" color="primary" >
+           <Button id="delete_skill" disabled={props.SkillsFormData.Count<2} className={classes.deleteButton} onClick={DeleteSkills} variant="outlined" color="primary" >
             Delete Skill
           </Button>
-          <Button  className={classes.addButton} onClick={AddSkill} variant="contained" color="primary">
+          <Button id="add_skill" className={classes.addButton} onClick={AddSkill} variant="contained" color="primary">
             ADD Skill
           </Button>
           </div>

@@ -149,10 +149,10 @@ const AddEducation = () => {
           <CardHeader subheader="Add your Education Details" /> 
           {Form.map((instance) => instance)}
           <div className={classes.footer}>
-           <Button disabled={props.educationFormData.Count<2} className={classes.deleteButton} onClick={Deleteducation} variant="outlined" color="primary" >
+           <Button id="delete" disabled={props.educationFormData.Count<2} className={classes.deleteButton} onClick={Deleteducation} variant="outlined" color="primary" >
             Delete
           </Button>
-          <Button  className={classes.addButton} onClick={AddEducation} variant="contained" color="primary">
+          <Button id="add_education" className={classes.addButton} onClick={AddEducation} variant="contained" color="primary">
             ADD EDUCATION
           </Button>
           </div>

@@ -104,7 +104,7 @@ const AddSocial = () => {
            <Button disabled={ props.SocialFormData.Count<2} className={classes.deleteButton} onClick={DeleteSocial} variant="outlined" color="primary" >
             Delete Social
           </Button>
-          <Button  className={classes.addButton} onClick={AddSocial} variant="contained" color="primary">
+          <Button id="add_social" className={classes.addButton} onClick={AddSocial} variant="contained" color="primary">
             ADD Social
           </Button>
           </div>
